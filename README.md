@@ -1,7 +1,27 @@
 # Arch installation on a BTRFS root filesystem
 This is a cheatsheet with all the instructions to perform an installation of Arch Linux using BTRFS filesystem in /
 
-[TOC]
+# TOC
+* [Laptop model](#laptop-model)
+* [First steps](#first-steps)
+* [Partitioning](#partitioning)
+* [BTRFS layout](#btrfs-layout)
+* [Installing Arch Linux](#installing-arch-linux)
+* [Fstab](#fstab)
+* [Mkinitcpio](#mkinitcpio)
+* [Bootloader](#bootloader)
+* [Additional packages installed](#additional-packages-installed)
+* [Finish the steps in the Wiki](#finish-the-steps-in-the-wiki)
+* [Automated snapshots and system updates](#automated-snapshots-and-system-updates)
+* [Configuration files](#configuration-files)
+* [ButterManager](#buttermanager)
+* [Re-installing the system](#re-installing-the-system)
+* [Graphics and Optimus installation](#graphics-and-optimus-installation)
+* [Bluetooth installation](#bluetooth-installation)
+* [Problem with Docker and BTRFS](#problem-with-docker-and-btrfs)
+* [Pulseaudio high battery consuption](#pulseaudio-high-battery-consuption)
+* [Restructuring BTRFS Layout on Antergos or another distribution](#restructuring-btrfs-layout-on-antergos-or-another-distribution)
+
 
 ## Laptop model ##
 The installation has been done on a [Mountain Onyx](https://www.mountain.es/portatiles/onyx) laptop.
